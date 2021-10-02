@@ -24,6 +24,17 @@
 </div>
 
 这是登录页
+<form action="{{url("/login")}}">
+    昵称:<br>
+    <input type="text" name="username" value="">
+    <br>
+    密码:<br>
+    <input type="text" name="password" value="">
+    <br><br>
+    <input type="submit" value="登录">
+</form>
+
+<p>这是登录页！</p>
 
 </body>
 </html>
