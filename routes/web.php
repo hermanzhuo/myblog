@@ -18,9 +18,7 @@ Route::group(['namespace'=>'App\Http\Controllers'],function(){
         return view('welcome');
     });
 
-    Route::get('/login', function () {
-        return view('login');
-    });
+    Route::get('/login', "Controller@login");
 
     Route::get('/reg', "Controller@reg");
 });

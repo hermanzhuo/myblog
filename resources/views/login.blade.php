@@ -24,7 +24,7 @@
 </div>
 
 这是登录页
-<form action="{{url("/login")}}">
+<form action="{{url("/login")}}" method="get">
     昵称:<br>
     <input type="text" name="username" value="">
     <br>
